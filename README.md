@@ -1,6 +1,7 @@
 # daniilrostov_infra
 daniilrostov Infra repository
 
+
 ## DZ№3
 #### On bastion server run:
 ```iptables -I PREROUTING -t nat -p tcp -d 10.129.0.31 --dport 2222 -j DNAT --to 10.129.0.11:22```
@@ -19,7 +20,6 @@ Host somehost
   Port 2222
   User user
 
-
 #### Result:
 ```$ ssh somehost```
 ```Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.15.0-112-generic x86_64)```
@@ -28,6 +28,7 @@ Host somehost
 
 ```bastion_IP 51.250.98.99```
 ```someinternalhost_IP = 10.129.0.11```
+
 
 ## DZ№4
 
@@ -38,3 +39,9 @@ install_ruby.sh
 
 testapp_IP = 51.250.73.27
 testapp_port = 9292
+
+
+## DZ№5
+
+Added packer with ubuntu16.json
+Added immutable.json
