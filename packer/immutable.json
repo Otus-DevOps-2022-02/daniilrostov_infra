@@ -30,6 +30,11 @@
             "type": "shell",
             "script": "scripts/install_mongodb.sh",
             "execute_command": "sudo {{.Path}}"
+        },
+        {
+            "type": "shell",
+            "script": "scripts/deploy_immutable.sh",
+            "execute_command": "sudo {{.Path}}"
         }
     ]
 }
