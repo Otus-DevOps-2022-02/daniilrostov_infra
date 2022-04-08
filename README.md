@@ -46,3 +46,9 @@ testapp_port = 9292
 Added packer with ubuntu16.json
 Added immutable.json
 Added deploy_immutable.sh
+
+
+## DZ№6
+
+Added terraform plan
+Added lb.tf
