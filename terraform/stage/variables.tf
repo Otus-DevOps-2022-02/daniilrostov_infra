@@ -33,3 +33,11 @@ variable "network_id" {
 variable "region_id" {
   description = "region"
 }
+variable "app_disk_image" {
+  description = "Disk image for reddit app"
+  default     = "fd8ceqrfrjru1j33u0qm"
+}
+variable "db_disk_image" {
+  description = "Disk image for reddit app"
+  default     = "fd8emf6b08pktajhs59e"
+}
