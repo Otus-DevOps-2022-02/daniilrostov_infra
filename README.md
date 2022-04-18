@@ -57,3 +57,8 @@ Host somehost
 
 - Added terraform modules
 - Added terraform s3
+
+## DZ№8
+
+- Added ansible dir
+- Added ansible/clone.yml playbook

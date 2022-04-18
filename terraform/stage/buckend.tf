@@ -3,7 +3,7 @@ terraform {
     endpoint                    = "storage.yandexcloud.net"
     key                         = "stage-state.tfstate"
     region                      = "ru-central1"
-    bucket                      = "otus-tf-state"
+    bucket                      = "otus-tf-state-daniil"
     skip_region_validation      = "true"
     skip_credentials_validation = "true"
     access_key                  = ""
