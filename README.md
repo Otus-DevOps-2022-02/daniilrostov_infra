@@ -62,3 +62,8 @@ Host somehost
 
 - Added ansible dir
 - Added ansible/clone.yml playbook
+
+## DZ№9
+
+- Added ansible playbooks
+- Added ansible provisioner for packer
