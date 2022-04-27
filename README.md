@@ -67,3 +67,7 @@ Host somehost
 
 - Added ansible playbooks
 - Added ansible provisioner for packer
+
+## DZ№10
+
+- Added ansible roles
