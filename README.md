@@ -71,3 +71,7 @@ Host somehost
 ## DZ№10
 
 - Added ansible roles
+
+## DZ№11
+
+- Added molecule test
